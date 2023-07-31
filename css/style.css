@@ -1,0 +1,568 @@
+/*common start*/
+body{
+	color: #8e8e8e;
+	font-size: 16px;
+	font-weight: 400px;
+}
+.c_padd{
+	padding-bottom: 100px;
+}
+/*common end*/
+/*header start*/
+header{
+	background-color: white;
+	padding: 20px 0;
+}
+.logo{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.t_btn:focus{
+	box-shadow: none;
+}
+.manu{
+	position: absolute;
+}
+.menu ul li{
+	padding-left: 20px;
+
+}
+.menu ul li a{
+	text-transform: uppercase;
+
+}
+.menu ul li a:hover{
+	color: black;
+	font-weight: 700;
+	padding: auto;
+}
+.s_btn{
+	border: 0;
+}
+.s_btn i{
+	font-size: 16px         ;
+	color: #8e8e8e;
+	transition: .3s;
+}
+.s_btn::after{
+	display: none;
+}
+.s_btn i:hover{
+	transform: scale(.8);
+}
+
+.ddm{
+	width: 300px;
+	border-radius: 0;
+	padding: 10px 10px;
+}
+.ddm[data-bs-popper] {
+	top: 53px;
+	left: -248px;
+	margin-top: 0;
+	border-radius: 15px;
+}
+.d_input{
+	width: 100%;
+	height: 45px;
+	border: 0;
+	background-color: whitesmoke;
+}
+.d_input:focus{
+	box-shadow: none;
+}
+.ddm_t{
+
+}
+.ddm_i{
+	background-color: whitesmoke;
+    border-radius: 10px;
+}
+.d_btn{
+	width: 100%;
+	height: 45px;
+	background-color: transparent;
+	border: 0;
+}
+.d_btn i{
+	color: #8e8e8e;
+	transition: .3s;
+}
+.d_btn i:hover{
+	transform: scale(1.2);
+}
+/*header end*/
+/*slider start*/
+.slider{
+	background-image: url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.sn_item{
+	padding: 200px 0 200px;
+	color: white;
+}
+.b_h1{
+	font-size: 57px;
+	font-weight: 700;
+	padding-bottom: 30px;
+
+}
+.b_p{
+	margin: 0 90px 40px 0;
+}
+.b_btn{
+    border: none;
+    width: 149px;
+    height: 35px;
+}
+.p_n{
+	border: 0;
+    background: transparent;
+    text-transform: uppercase;
+    color: #8e8e8e;
+}
+.p_n:hover{
+	color: black;
+	font-weight: 500;
+}
+/*slider end*/
+/*sarvice start*/
+.c_shape{
+	height: 50px;
+	width: 2px;
+	background-color: black;
+}
+.c_h1{
+	color: black;
+	font-size: 30px;
+}
+.s_p{
+	padding-top: 40px;
+}
+
+.s_sarvic{
+	border: 1px solid #8e8e8e;
+	margin-top: 70px;
+	padding: 70px 15px 35px;
+}
+.s_icon{
+	margin: -91px auto 0;
+	background-color: white;
+	width: 70px;
+	
+}
+.s_icon i{
+	font-size: 60px;
+}
+.s_h2{
+	margin: 30px 0 18px;
+	font-size: 20px;
+	color: black;
+}
+.s_p2{
+	margin-bottom: 40px;
+}
+.s_ab{
+	color: #8e8e8e;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.s_ab span i{
+	padding-left: 10px;
+}
+.s_sarvic:hover{
+	border: 1px solid #333333;
+}
+.s_sarvic:hover .s_icon i{
+	color: black;
+}
+.s_sarvic:hover .s_ab{
+	color: black;
+}
+/*sarvice end*/
+/*about us start*/
+.about{}
+.a_h1{
+	text-transform: uppercase;
+	color: black;
+	padding-bottom: 30px;
+}
+.a_p{
+	line-height: 28px;
+	padding-bottom: 14px;
+}
+.a_p1{
+	line-height: 28px;
+	padding-bottom: 37px;
+}
+.b_btn1{
+	border: 1px solid black;
+	border-radius: 0;
+}
+/*about us end*/
+/*recent work start*/
+.rw_s{
+	background-color: #f8f8f8;
+}
+.RW{
+	padding: 120px 0 60px;
+}
+.RW ul{}
+.RW ul li{}
+.RW ul li a{
+	color: #8e8e8e !important;
+    font-size: 18px !important;
+    font-weight: 400px !important;
+    text-align: center;
+}
+.RW ul li a:hover{
+	border: 1px solid black;
+	color: black !important;
+}
+.Rw_box{
+	padding-bottom: 100px;
+}
+.w_img {
+	padding-bottom: 25px;
+}
+.w_img img {
+    width: 100%;
+    display: block;
+}
+.box{
+	position: relative;
+}
+.b_i{
+	position: absolute;
+	padding: 36% 42.8% 36%;
+	top: 0px;
+	background-color: black;
+	opacity: 0;
+	transition: .33s;
+}
+.b_i ul{
+	
+	padding: 0;
+	list-style: none;
+}
+.b_i ul li{}
+.b_i ul li img{
+	color: #FFF;
+}
+.b_t{
+	position: absolute;
+    background-color: #FFF;
+    opacity: 1;
+    bottom: 25px;
+    transition: .3s;
+	text-align: left;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 100%;
+    opacity: 0;
+    transition: .33s;
+}
+.b_t h2{
+	text-transform: uppercase;
+    font-size: 25px;
+    color: #333333;
+}
+.b_t p{
+	letter-spacing: 1px;
+}
+.box:hover .b_t{
+	opacity: 1;
+}
+.box:hover .b_i{
+	opacity: .4;
+}
+/*recent work end*/
+/*Why Choose Nipro*/
+.choose{
+	padding: 100px 0 50px;
+}
+.co_h2{
+	padding-bottom: 40px;
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.co_h2 span i{
+	font-size: 48px;
+	padding-right: 10px;
+}
+.co_p{
+	margin-bottom: 40px;
+}
+.hover_1{
+	padding-bottom: 50px;
+}
+.hover_1:hover .co_h2{
+	color: black;
+}
+.hover_1:hover .shape{
+	background-color: black;
+	height: 2px;
+}
+/*profile*/
+.profile{
+	background-image: url(../images/banner2.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: left;
+}
+.p_sh{
+	background-color: white;
+}
+/*people*/
+.paddi{
+	padding: 70px 0 80px;
+}
+.people{
+	position: relative;
+}
+.p_img{}
+.p_img img{
+	width: 100%;
+	display: block;
+}
+.overlay{
+    position: absolute;
+    background-color: transparent;
+    opacity: 0;
+    bottom: 0px;
+    top: 50px;
+    transition: .3s;
+}
+.people:hover .overlay {
+	opacity: 1;
+}
+.overlay ul {
+	background-color: #f8f8f8;
+	list-style: none;
+	color: black;
+}
+.overlay ul li i{
+	padding-right: 12px;
+    text-align: center;
+    font-size: 25px;
+    margin: 6px 0px 6px -24px;
+    color: #8e8e8e;
+}
+.overlay ul li i:hover{
+	border-right: 2px solid black;
+	color: black;
+}
+.overlay ul li i:hover{
+	color: black;
+}
+/*best prpcing start*/
+.c_h1{
+	margin-bottom: 20px;
+}
+.s_top{
+	margin: -91px 27px 0;
+	background-color: white;
+	width: 65px;
+	font-size: 40px;
+	color: #333333;
+}
+.s_top h2{
+	font-size: 30px;
+}
+.s-h2{
+
+    padding-top: 30px;
+	font-size: 40px;
+	padding-left: 27px;
+	color: black;
+}
+.s-h2 span{
+	font-size: 16px;
+	color: #cacaca;
+	font-weight: 400;
+}
+.s_ul{
+	list-style: none;
+	padding-left: 27px;
+}
+.sign{
+	padding: 0 24px 0 24px;
+}
+.s_ul1{
+	list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    border: 1px solid ;
+    margin: 46px 0px 10px 0;
+}
+.s_ul1 li{
+	padding: 10px 0 10px 0;
+}
+.s_sarvic:hover .s_ul1 {
+    border: 1px solid black;
+}
+/*best prpcing end*/
+
+/*Buy start*/
+.buy{
+	background-color: #f8f8f8;
+	margin-bottom: 90px;
+}
+.by_h1{
+	font-size: 18px;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 27px;
+}
+.by{
+	margin-top: 15px;
+}
+.s-ul{
+	list-style: none;
+    text-align: center;
+    padding-left: 0px;
+    border: 1px solid ;	
+    
+}
+.s-ul li{
+	padding: 10px 0 10px 0;
+}
+.s-ul li a{
+	color: black;
+}
+/*Buy end*/
+/*al-rayhan start*/
+.rayhan{
+	margin-bottom: 90px;
+}
+.bod{
+	border: 1.5px solid #8e8e8e;	
+
+}
+.r_img{
+	margin-top: 22px;
+    margin-bottom: 22px;
+}
+}
+.r_img img{}
+.r_text{
+	margin-top: 22px;
+    margin-bottom: 22px;
+}
+.r_h2c{
+	margin-bottom: 15px;
+	color: black;
+}
+.h2b{
+	color: #8e8e8e;
+}
+.mrb{
+	margin-bottom: 50px;
+}
+/*al-rayhan end*/
+/*contact us start*/
+.c_us{
+	border: 1px solid #8e8e8e;
+	margin-top: 70px;
+	padding: 70px 15px 35px;
+}
+.con-u{
+	margin: -91px auto 0;
+	background-color: white;
+	width: 190px;
+}
+.conh{
+	font-weight: 400 !important;
+	color: black;
+	text-transform: uppercase;
+	margin-bottom: 90px;
+}
+.con_in{
+	border: none;
+	border-color: #8e8e8e;
+	border-bottom: 2px solid #8e8e8e;
+	border-radius: 0;
+	color: #8e8e8e;
+	margin-bottom: 50px;
+}
+.con-p{
+	padding-bottom: 70px;
+    margin-bottom: 50px;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+.sb{
+	padding: 8px 20px;
+	border: 1.5px solid #8e8e8e;
+}
+.sb:hover{
+	color: black;
+	border: 2px solid black;
+}
+.con_in:hover{
+	color: black;
+	border-bottom: 2px solid black;
+}
+/*contact us end*/
+/*footer start*/
+footer{
+	background-image: url(../images/footer.jpg);
+}
+.dh{
+	text-transform: uppercase;
+}
+.p-c{
+	color: white;
+}
+.mrb{
+	margin-bottom: 100px;
+}
+.foo_ul{
+	margin-top: 40px;
+	list-style: none;
+	
+}
+.foo_ul li {
+	float: left;
+	background-color: transparent;
+}
+.foo_ul li i{
+	font-size: 25px;
+	border: 1px solid white;
+	margin-left: 10px;
+	padding: 8px 15px;
+	color: white;
+	transition: .33s;
+}
+.foo_ul li i:hover{
+	background-color: white;
+	color: black;
+}
+.pdin{
+	border-top: 1px solid white;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+.f1{}
+.f1 address{
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+}
+.f2{}
+.f2 p{
+	float: left;
+}
+.f2 p a{
+	text-decoration: none;
+	float: right;
+	margin-left: 40px;
+	color: white;
+}
+
+
+/*footer end*/
